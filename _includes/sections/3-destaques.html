@@ -1,0 +1,15 @@
+
+<section class="" id="destaques">
+	<div class="row">
+		<h4 class="col-sm-12">Destaques</h4>
+		{% for post in site.categories.destaques limit:4 %}
+			<a href="{{ post.url }}" class="col-sm-12 col-md-6 col-lg-3 grade">
+				<span>{{ post.title }}</span>
+				<img src="{{ site.link }}/{{ post.imagem }}">
+
+			</a>
+		{% endfor %}
+	</div>
+
+
+</section>

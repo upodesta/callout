@@ -1,0 +1,19 @@
+---
+layout: categories
+permalink: /others/
+title: Others
+
+---
+<section id="destaques" class="portfolio">
+	<div class="row">
+		<h4 class="col-sm-12 section-title">Others</h4>
+		{% for post in site.categories.others %}
+			<a href="{{ post.url }}" class="col-sm-12 col-md-6 col-lg-3 grade">
+				<span>{{ post.title }}</span>
+				<img src="{{ site.link }}/{{ post.imagem }}">
+
+			</a>
+		{% endfor %}
+	</div>
+
+</section>

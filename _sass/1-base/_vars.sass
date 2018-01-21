@@ -1,0 +1,29 @@
+//	fonts
+@import url('https://fonts.googleapis.com/css?family=Questrial|Roboto:300,400,700')
+
+$questrial: 'Questrial', sans-serif
+$roboto: 'Roboto', sans-serif
+
+//  Colors
+$fundo: #F2F2F2
+$cinza-claro: #BBBDBF
+$cinza: #929292
+$cinza-letra: #9A9A9A
+$bordo: #440532
+$vermelho: #94063E
+$vermelho-soft: #C90036
+
+// Fonts-Families
+body
+	font-family: $questrial
+	background: $fundo
+p
+	font-family: $roboto
+
+
+// Mixins
+@mixin border-radius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius
