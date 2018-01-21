@@ -2,7 +2,7 @@
 layout: post
 title: 1 Company Return
 categories: incometax highlights
-permalink: /incometax/1-company-return
+permalink: /callout/incometax/1-company-return
 
 ---
 <div class="post-content">
