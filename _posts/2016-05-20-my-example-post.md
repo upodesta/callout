@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1 Company Return
-categories: incometax destaques
+categories: incometax highlights
 imagem: assets/img/casamento-esc.jpg
 permalink: /incometax/1-company-return
 
