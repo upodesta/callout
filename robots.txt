@@ -1,8 +1,0 @@
-# www.robotstxt.org/
-
-
-User-agent: *
-allow: /
-disallow: /
-
-Sitemap: https://video.taxadvisor.ml/sitemap.xml
